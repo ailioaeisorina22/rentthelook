@@ -19,7 +19,7 @@ const { sequelize } = require('./db-config');
 require('dotenv').config();
 const JWT_SECRET = process.env.JWT_SECRET;
 
-const stripe = new Stripe('sk_test_51RLTxmRfORTb8tCzGNukxAJezk6eIbLqs3Yjq7gYzkTnau1ITrs7kwLxbSu1VLwoWm1fHepTl66YvoAykeViwK1000G2hZmCUM');
+const stripe = new Stripe(process.env.Stripe_Pssw);
 
 const router = express.Router(); 
 
