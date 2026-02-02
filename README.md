@@ -1,54 +1,54 @@
-# RentTheLook – Online Rental Platform
+# 🛍️ RentTheLook – Online Rental Platform
 
-## Overview
+## 📌 Overview
 **RentTheLook** is a full-stack web application for online product rentals.  
-Users can check product availability for a selected date range, place rental orders, and complete payments online.  
-An admin panel is available for managing rentals, orders, and returns.
+Users can check product availability for a selected date range, place rental orders, and complete payments online 💳.  
+An admin panel is available for managing rentals, orders, and returns 🛠️.
 
 ---
 
-## Tech Stack
+## 🧰 Tech Stack
 
-**Backend**
+### ⚙️ Backend
 - Node.js, Express.js
 - MySQL + Sequelize ORM
-- JWT authentication
+- JWT authentication 🔐
 - Stripe API (payments)
 - RESTful APIs
 
-**Frontend**
+### 🎨 Frontend
 - React.js (SPA)
 
-**Other**
+### 🧩 Other
 - Git
 - Environment variables (.env)
 
 ---
 
-## Key Features
+## 🚀 Key Features
 
-**User**
+### 👤 User
 - Register & login (JWT)
 - Browse products
-- Check availability via calendar
+- Check availability via calendar 📅
 - Rent products for a selected period
-- Shopping cart
-- Online payment with Stripe
-- Check current and history of the orders
+- Shopping cart 🛒
+- Online payment with Stripe 💳
+- View current and order history 📄
 
-**Admin**
+### 🧑‍💼 Admin
 - Admin dashboard
 - View and filter orders
 - Manage rentals and returns
-- Update rental status and handle deposit refunds
-- View reports about rentals
+- Update rental status and handle deposit refunds 💰
+- View rental reports 📊
 
 ---
 
-## Project Purpose
+## 🎓 Project Purpose
 This project was developed as a **Bachelor’s Degree project**, showcasing full-stack development, secure authentication, database modeling, and third-party payment integration.
 
 ---
 
-## Author
+## 👩‍💻 Author
 **Sorina-Elena Ailioaei**
