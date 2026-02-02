@@ -18,7 +18,6 @@ An admin panel is available for managing rentals, orders, and returns.
 
 **Frontend**
 - React.js (SPA)
-- Axios
 
 **Other**
 - Git
@@ -35,12 +34,14 @@ An admin panel is available for managing rentals, orders, and returns.
 - Rent products for a selected period
 - Shopping cart
 - Online payment with Stripe
+- Check current and history of the orders
 
 **Admin**
 - Admin dashboard
 - View and filter orders
 - Manage rentals and returns
 - Update rental status and handle deposit refunds
+- View reports about rentals
 
 ---
 
