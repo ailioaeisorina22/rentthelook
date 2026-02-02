@@ -1,0 +1,140 @@
+
+.admin-dashboard{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .admin-dashboard h2 {
+    text-align: center;
+    color: #801212;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .filter-bar-a {
+    margin: 0 auto 2rem auto;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    color: #444;
+    font-weight: 500;
+    justify-content: center;
+  }
+  
+  .filter-bar-a select {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #fff;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .filter-bar-a select:focus {
+    box-shadow: 0 0 0 2px #80121266;
+    outline: none;
+  }
+  
+  .rental-item {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+    position: relative;
+    transition: transform 0.2s ease;
+  }
+  
+  .rental-item:hover {
+    transform: translateY(-4px);
+  }
+  
+  .product-name {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #2c3e50;
+    margin-bottom: 0.3rem;
+  }
+  
+  .rental-item p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .status-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.45rem 1.1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 999px;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  }
+  
+  .status-confirmata-a {
+    background-color: #d0ebff;
+    color: #1c7ed6;
+    border-color: #74c0fc;
+  }
+  
+  .status-plasata-a {
+    background-color: #fff3bf;
+    color: #f08c00;
+    border-color: #ffe066;
+  }
+  
+  .status-incheiata-a {
+    background-color: #e9ecef;
+    color: #495057;
+    border-color: #ced4da;
+  }
+  
+  .status-returnata-a {
+    background-color: #d3f9d8;
+    color: #2b8a3e;
+    border-color: #69db7c;
+  }
+  
+  .status-la-client-a {
+    background-color: #f8f0fc;
+    color: #9c36b5;
+    border-color: #da77f2;
+  }
+  
+  .manage-return-btn {
+    background-color: #1c7ed6;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 3%;
+  }
+  
+  .manage-return-btn:hover {
+    background-color: #1864ab;
+  }
+.toggle-report-btn {
+  display: block;
+  margin: 1rem auto; /* centrare orizontală */
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.toggle-report-btn:hover {
+  background-color: #555;
+}

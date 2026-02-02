@@ -1,0 +1,128 @@
+.homepage-head{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 50px;
+    gap: 5px;
+    background-color: #ffffff8c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+.title{
+  margin-right: auto;
+}
+
+.btn-login {
+    color: #500707;
+    font-family:'Abril Fatface';
+    padding: 10px 20px;
+    font-size: 100%;
+    border-color:#f6b2b244;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-cart{
+    background-image: url('./images/cart.png');
+    border-color:#f6b2b244;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45px;
+    width:2%;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-profile{
+  background-image: url('./images/profile.png');
+  border-color:#f6b2b244;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 45px;
+  width:2%;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.homepage-body-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 70vh;
+}
+
+.women{
+    font-family: 'Abril Fatface', cursive;
+    color: #500707b0;
+    font-size:5.5vw;
+    text-shadow: 4px 4px 10px rgb(255, 255, 255);
+    border: none;
+    width: 25%;
+    height: 80%;
+    margin-top: 5%;
+    background-image: url('./images/women.jpeg');
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    transition: filter 0.3s ease;
+  }
+  .men{
+    font-family: 'Abril Fatface', cursive;
+    color: #500707b0;
+    font-size: 5.5vw;
+    border: none;
+    margin-top: 5%;
+    text-shadow: 0px 0px 30px rgb(255, 255, 255);
+    width: 25%;
+    height: 80%;
+    background-image: url('./images/men.jpeg');
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  }
+  .kids{
+    font-family: 'Abril Fatface', cursive;
+    color: #500707b0;
+    border: none;
+    margin-top: 5%;
+    text-shadow: 0px 0px 30px rgb(255, 255, 255);
+    font-size: 5.5vw;
+    font-family: 'Abril Fatface', cursive;
+    width: 25%;
+    height: 80%;
+    background-image: url('./images/kids.jpeg');
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  }
+
+  .message-hp {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #041f12;
+    border-left: 5px solid #075028;
+    border-top: 5px solid #075028;
+    background-image: url('./images/eco.webp');
+    background-size: cover;
+    padding: 2rem;
+    margin: 3rem auto;
+    margin-top: 5rem;
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    line-height: 1.7;
+  }
+  
+  .message-hp h4 {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #075028;
+    margin-bottom: 1rem;
+    text-shadow: 4px 4px 20px rgb(27, 221, 247);
+  }
+  
+  .message-hp li {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+  }

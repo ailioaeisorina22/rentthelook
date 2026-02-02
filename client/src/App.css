@@ -1,0 +1,20 @@
+body {
+  background-color: #f6e7e1b8;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  color: #500707;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  cursor:pointer;
+}
+
+button{
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover{
+  filter: brightness(0.8);
+}

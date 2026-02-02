@@ -1,0 +1,230 @@
+h2.title {
+    color: #500707d4;
+    text-align: center;
+}
+
+h3 {
+    color: #500707d4;
+    margin-left: 3%;
+}
+
+.user-data {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+.user-data p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+.order-card {
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .order-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-card p {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+    color: #2c3e50;
+  }
+  
+  .order-card .order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .order-status {
+    font-weight: bold;
+    color: #2980b9;
+  }
+  
+  .order-total {
+    font-weight: bold;
+    color: #27ae60;
+    margin-top: 0.5rem;
+  }
+  
+  .order-item {
+    padding-left: 1rem;
+    border-left: 3px solid #ddd;
+    margin-bottom: 0.5rem;
+  }
+  
+  .order-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    padding: 0.3rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    background-color: #ecf0f1;
+    color: #555;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  
+  .order-badge::before {
+    content: '\1F552'; /* ceas */
+    font-size: 1rem;
+  }
+  
+  .order-badge.confirmata::before {
+    content: '\2705'; /* bifa verde */
+  }
+
+  .order-badge.la-client::before {
+    content: '\1F4E6'; /* pachet */
+  }
+  
+  .order-badge.plasata::before {
+    content: '\23F3'; /* clepsidra */
+  }
+  
+  .order-badge.incheiata::before {
+    content: '\1F5D3'; /* calendar */
+  }
+  
+  .order-badge.confirmata {
+    background-color: #dff9fb;
+    color: #0984e3;
+  }
+  
+  .order-badge.plasata {
+    background-color: #ffeaa7;
+    color: #d35400;
+  }
+  
+  .order-badge.la-client {
+    background-color: #e8f8f5;
+    color: #1abc9c;
+  }  
+
+  .order-badge.incheiata {
+    background-color: #dfe6e9;
+    color: #636e72;
+  }
+  
+  .product-name {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.2rem;
+    font-size: 1.1rem;
+  }
+  
+  .product-details {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .product-details .price {
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  .product-details .deposit {
+    color: #c0392b;
+    font-weight: bold;
+  }
+  
+  .no-orders {
+    margin-left: 2%;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .credit {
+    color: #27ae60;
+    font-weight: bold;
+  }
+  .feedback-btn {
+    background-color: transparent;
+    color: #299c59e0;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 0.95rem;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+  
+  .feedback-btn:hover {
+    color: #1d7a45;
+  }
+  
+  .feedback-message {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+    width: 100%;
+    max-width: 300px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feedback-message:focus {
+    border-color: #299c59;
+    box-shadow: 0 0 0 3px #299c5922;
+  }
+  
+  .submit-feedback-btn {
+    background-color: #299c59;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 1%;
+  }
+  
+  .submit-feedback-btn:hover {
+    background-color: #1d7a45;
+  }
+  .star-rating {
+    display: flex;
+    gap: 0.3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .star {
+    color: #ccc;
+    transition: color 0.2s;
+  }
+  
+  .star.filled {
+    color: #f1c40f;
+  }

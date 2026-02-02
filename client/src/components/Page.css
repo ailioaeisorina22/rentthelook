@@ -1,0 +1,59 @@
+.women-page-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 80vh;
+}
+.men-page-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 80vh;
+}
+.kids-page-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 80vh;
+}
+.women-page-body button{
+    font-family: 'Abril Fatface', cursive;
+    color: #500707;
+    font-size:3vw;
+    text-shadow: 4px 4px 10px rgb(255, 255, 255);
+    border: none;
+    width: 25%;
+    height: 70%;
+    background-image: url('./images/women.jpeg');
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    transition: filter 0.3s ease;
+}
+.men-page-body button{
+    font-family: 'Abril Fatface', cursive;
+    color: #9dedae;
+    font-size: 3vw;
+    border: none;
+    text-shadow: 0px 0px 30px rgb(0, 0, 0);
+    width: 25%;
+    height: 70%;
+    background-image: url('./images/men.jpeg');
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+.kids-page-body button{
+    font-family: 'Abril Fatface', cursive;
+    color: #500707;
+    border: none;
+    text-shadow: 0px 0px 30px rgb(255, 255, 255);
+    font-size: 3vw;
+    font-family: 'Abril Fatface', cursive;
+    width: 25%;
+    height: 70%;
+    background-image: url('./images/kids.jpeg');
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  }

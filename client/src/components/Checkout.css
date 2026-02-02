@@ -1,0 +1,148 @@
+.checkout-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checkout-form {
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-form h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  color: #801212;
+  border-bottom: 2px solid #f6e7e1;
+  padding-bottom: 0.5rem;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.checkout-form input,
+.checkout-form select {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fdfdfd;
+  transition: border-color 0.3s;
+}
+
+.checkout-form input:focus {
+  border-color: #801212;
+  outline: none;
+}
+
+.payment-methods {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.payment-methods label {
+  font-weight: 600;
+  color: #444;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.terms-checkbox {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #444;
+  gap: 1rem;
+}
+
+.terms-info {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  color: #801212;
+}
+
+.q {
+  background-color: #fff9f9;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  border-left: 4px solid #801212;
+  font-size: 0.95rem;
+  border-radius: 10px;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.checkout-btn {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0.9rem 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #a21d1d;
+}
+
+
+.succes-container {
+    margin: 3rem auto;
+    padding: 2rem;
+    max-width: 600px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+.succes-container h2 {
+    color: #2e7d32; 
+    margin-bottom: 1rem;
+}
+  
+.succes-container p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+  
+.succes-container button {
+    background-color: #801212;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+.succes-container button:hover {
+    background-color: #a21d1d;
+}
+
+.no-address-message {
+  color: #a00;
+  margin-top: 10px;
+  font-weight: bold;
+}

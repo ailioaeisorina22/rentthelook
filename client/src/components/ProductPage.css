@@ -1,0 +1,238 @@
+.product-title {
+    color: #000000;
+    margin-left: 4%;
+    font-size: 2rem;
+}
+.product-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-style: italic;
+}
+.product-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  
+.product-details {
+    background-color: #f6e7e1;
+    margin-left: 2%;
+    padding: 2%;
+    border-radius: 2rem;
+    margin-top: 1%;
+    flex: 1; 
+    max-width: 50%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    color: #1a1a1a;
+}
+
+.product-description {
+    color: #2c3e50;
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.quality-detalis{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.quality-details-more
+{
+  background-color: #fefefe;
+  padding: 1rem 1.5rem;
+  margin-top: 1.2rem;
+  border-left: 4px solid #3498db;
+  font-size: 0.95rem;
+  border-radius: 10px;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+
+}
+
+.quality-info {
+    background-image: url('./images/info.png');
+    border-color:#f6b2b244;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20px;
+    width:1%;
+    padding: 10px 10px;
+    margin-top: 2%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff4f;
+}
+
+.product-price {
+    font-size: 1.8rem;
+    color: #299c59;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-left: 70%;
+}
+
+.rent-button {
+    padding: 0.75rem 2rem;
+    background-color: #1c62b9;
+    color: white;
+    border-radius: 0.75rem;
+    border: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+.disp-button {
+    padding: 0.65rem 1rem;
+    background-color: #1c62b9;
+    color: white;
+    border-radius: 0.75rem;
+    border: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.total-price button {
+    background-color: #299c59e0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+    font-size: 1.2rem;
+}  
+
+.total-price {
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    color: #2c3e50;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.col-feedback {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2%;
+  }
+  
+.product-slider {
+    flex: 1; 
+    width: 500px; 
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-right: 2%;
+}
+
+.product-slider img {
+    width: 100%;
+    height: 500px;
+    object-fit:contain;
+    border-radius: 1rem;
+}
+
+.size-selector {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 85%;
+}
+  
+.size-label {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+  
+.size-dropdown {
+    padding: 0.6rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    width: 100%;
+    transition: border 0.3s;
+}
+  
+.size-dropdown:focus {
+    border-color: #1c62b9;
+    outline: none;
+}
+
+.calendar {
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.availability-check {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .availability-check .available {
+    color: #27ae60;
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+  }
+  
+  .availability-check .not-available {
+    color: #e74c3c;
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  .feedback-section {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    padding: 1.2rem 1.5rem;
+    text-align: left;
+  }
+  
+  .feedback-section h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  .feedback-item {
+    padding: 0.75rem 0;
+    width: 100%;
+  }
+  .stars {
+    color: #f39c12;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filled-star {
+    color: #f1c40f;
+  }
+  
+  .empty-star {
+    color: #ccc;
+  }
+  
+  .description {
+    font-size: 0.95rem;
+    color: #333;
+  }

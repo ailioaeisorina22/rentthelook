@@ -1,0 +1,30 @@
+.list-gender-select{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 80%;
+    display: flex;
+    justify-items:flex-start;
+    margin-left: 8%;
+    color: #e85e5e;
+    background-color: #50070700;
+    border-color: #50070700;
+}
+.list-gender{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70%;
+    font-weight: bold;
+    display:inline-flex;
+    margin-right: 35%;
+}
+.pssw-info{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30%;
+    text-shadow: none;
+    color: black;
+    margin-left: 10%;
+    background: #f8f8f884;
+    padding: 2%;
+    width: 75%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2)
+}
